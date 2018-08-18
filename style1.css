@@ -1,0 +1,41 @@
+<style>
+div#content {
+  width : 75%;
+  margin : 0 auto;
+  padding : 100px;
+  background-color : cyan;
+  border : 10px solid #ccc;
+}
+h1,h2,h3{
+   color : #960;
+   margin : 0;
+}
+p{
+ margin : 0 0 0.75em 0;
+ line-height : 1.5em;
+}
+
+ul#linkDemo{
+ list-style:non;
+ margin : 0;
+ padding : 0;
+}
+#linkDemo a{
+display:block;
+float:left;
+width : 200px;
+height : 25px;
+background-color:black;
+color : white;
+font-weight : bold;
+padding-left : 50px;
+text-decoration : none;
+}
+p.clear{
+clear:both;
+height:0;
+margin:0;
+padding:0;
+}
+
+</style>
