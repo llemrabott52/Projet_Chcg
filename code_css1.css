@@ -3,13 +3,12 @@
 <title>code_css1</title>
 <style lang="css">
 
-
 div#outer{position :relative;
 width: 750px;
 height:300px;
 margin:15px auto;
-background-color :blue;
-border :solid 1px black;}
+background-color:blue;
+border:solid 1px black;}
 
 div#second0{position:relative;
 top:10;
@@ -74,7 +73,7 @@ p.mots{color:black;font-size:10pt;}
 p#flag{color:white;font-size:10pt;background-color:Navi;}
 p#flag1{color:black;font-size:40pt;background-color:Navi;padding:30px;}
 p#text1{color:Navi;font-size:10pt;background-color:white;}
-ul{color:Navi;}
+ul{color:blue;}
 img#myslide{width:100%;height:300;border:5px inset black;border-color:Navi;}
 
 
