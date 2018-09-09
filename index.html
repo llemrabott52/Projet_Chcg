@@ -1,92 +1,190 @@
-<html lang='an'>
-<head> 
-<title>Home</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="code_css1.css" />
-<link rel="stylesheet" type="text/css" href="code_css2.css" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style type="text/css">
-body {
-    overflow:hidden;
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ets Chcg</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ul{list-style-type:none;
+ margin:0;
+ padding:0;
+ position: relative;
 }
+
+li{display:inline-block;
+ float: center;
+ margin-right: 1px;
+}
+
+li a{display:block;
+min-width:178px;
+height: 50px;
+text-align: center;
+line-height: 50px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #fff;
+background: #2f3036;
+text-decoration: none;
+}
+
+li:hover a{
+background: #19c589;
+}
+
+li:hover ul a{
+background: #f3f3f3;
+color: #2f3036;
+height: 40px;
+line-height: 40px;
+}
+
+li:hover ul a:hover {
+background: #19c589;
+color: #fff;
+}
+
+li ul {
+display: none;
+}
+
+.wrapper{
+min-height:100%;
+width:100%
+position:relative;
+}
+
+img#testImage {float:left;
+margin-top :-4%;
+margin-right :-8px
+padding:50px;
+}
+
+body{
+height:100%
+background:#ddd;
+}
+
+p.border_img00{
+padding:10px;
+background-color:#112233;
+border-radius: 10px;
+width:45%
+}
+
+p.border_img000{
+left:7px;
+padding:10px;
+background-color:#112233;
+border-radius: 10px;
+width:35%}
+
+h2{
+padding:60px;
+background:#112233;
+color:#f0f1f5;
+font-family:big john;
+text-align:center;
+font-size:30pt;
+letter-spacing:15px;
+width:50%;
+}
+
+p.border_img1{boder-top-width:-15px;
+float:5%;
+border-left-width:-10px;
+border-right-width:-1px; 
+border-bottom-width:6px;
+border-style:solid;
+boder-color:black;
+width:38%;
+padding:10px;
+background-color:white;}
+
+p#text1{color:Navi;
+font-size:10pt;
+background-color:white;
+}
+
+div#second1{position:absolute;
+top:250;
+left:330px;
+background-color:white;
+width:81%;
+padding:15px;
+}
+
+h4{text-align: center;
+}
+
+@media screen and (min-width: 601px) {
+    div.txt1{position:absolute;
+    top:250;
+    float:left;
+	left:-80px;
+    width:80%;
+    font-size:15px;
+    padding:15px;
+	}
+	
+	div.txt11{position:absolute;
+    top:250;
+    float:left;
+	left:830px;
+    width:70%;
+    font-size:15px;
+    padding:15px;
+	}
+}
+
 </style>
 </head>
 
-<body bgcolor="white" alink="" vlink="white" link="black">
-<div id="outer">
-<div id="second0">
 
-<div id="second">
-<div align="center">
-<img align = "left" src="LOGOPETIT.png" width="140" height="96"/>
-<p id="flag1"><big> ETS C.H.C.G </big></p>
-</div>
-</div>
-
-<!--<div id="second01">
-<p align="left" class="border_img1">
-<b>Bien-venue dans le site du "E.T.S C.H.C.G"-Votre distributeur des Equipements, Energie et Produits Chimique</b>.
-</p>
-</div>
--->
-<div id="second00">
+<body>
+<div clss="wrampper">
+<div align ="center">
+<header>
+<h2>
+<img id="testImage" align = "left" src="LOGOPETIT.png" max-width="15%" max-height="15%"/>
+E.T.S CHCG
+</h2>
 <p align="center" class="border_img00">
-<font face="arial narrow" color="white"> <b>Bien-venue dans le site du "E.T.S C.H.C.G"  <u> Votre distributeur des Equipements, Energie et Produits Chimique</u> ...</b></font>
+<font face="arial narrow" color="white">
+ <b>Bien-venue dans le site du "E.T.S C.H.C.G"  <u> Votre distributeur des Equipements, Energie et Produits Chimique</u> ...</b>
+ </font>
+</p>
+
+</header>
+<ul id="menu">
+<li><a href="#">Home</a></li>
+<li><a href="#">PRODUITS</a></li>
+<li><a href="#">EQUIPEMENTS</a></li>
+<li><a href="#">C.VENTES</a></li>
+<li><a href="#">CONTACT</a></li>
+</ul>
+
+<div class="txt1">
+<p align="center" class="border_img000">
+<strong><b><u><font face="arial narrow" color="white">Mots du President</font></u></b><strong></p>
+<p align="center" class="border_img000">
+<font face="arial narrow" color="white">
+ Resize the browser window to see how the font size scales
+Depuis 1974, nous livrons des produits chimiques spéciaux et industriels organiques et inorganiques dans divers secteurs. 
+Afin que nos produits soient disponibles rapidement et sans difficulté dans notre région de...
+Fournisseur de : produits chimiques inorganiques | produits chimiques | produits chimiques industriels 
+Chimie minérale - produits de base et dérivés | Chimie organique - produits de base et dérivés
+</font>
 </p>
 </div>
+</div>
+<!--
+<div class="txt11">
+<p align="center" class="border_img000">
+<strong><b><u><font face="arial narrow" color="white">Images des Produits a Vendues</font></u></b><strong></p>
+<img align="center" src="mallette2.jpg" width="400px" height="250px"/>
+</div>
+</div>-->
 
-<div id="second1">
-<!--<img align="left" align = "top" src="Untitled3.png" width="830" height="250"/>
-<p id="flag">Bonjour Client !!</p><hr>-->
-<p id="text1"><strong>MPI-MAI-MI(UNA)</strong></p>
-<p align="left" class="border_img1">
-Ce site a était crée par <br><a href="cv_mrabott.html" target="_blank"><b><u><font color="black">E.Lemrabott</font></u> 
-<u><font color="black">Tolba</font></u>...</b></a><br> 
-Il est destiné principalement aux étudiants des Spécialités Mathématique <font color="black">&&</font> Informatique<font color="black">(MI)</font>
-à la Faculté des Sciences et Techniques de Nouakchott <a href="http://www.ustm.mr/?-Faculte-des-Sciences-et-Techniques-"><font size="3" color="black" face=""><b> F.S.T</a></b></a></font>
-<font color="black">*********************</font>
-Ce site a pour objectif d'aider ses etudiants dans leurs mission a la recherche de <strong>LICENCE</strong> !!.<br><font color="black">*********************</font></p>
-Email:<a href="https://mail.google.com/mail/u/0/">llemrabott52@gmail.com</a>
-<br><p id="text1">
-<u>Good Luck!</u></p>
-<a href = "#w">GRATUI!!</a>
-<br>
-</div>
-
-<div id="second2">
-<div valign="top" id="top-menu">
-<ul class="menu">
-<li><a href="Home_chekh.html"><u><font face="Segoe Script" color="black"><b>HOME</font></b></u></a></li>
-<li><a href="site_hmeti1.html"><u><font face="Segoe Script" color="black"><b>PRODUITS</font></b></u></a></li>
-<li><a href="site_hmeti1.html"><u><font face="Segoe Script" color="black"><b>EQUIPEMENT</font></b></u></a></li>
-<li><a href="site_hmeti1.html"><u><font face="Segoe Script" color="black"><b>CONTACT</font></u></b></a></li>
-</ul>
-</div>
-</div>
-
-<div id = "second4">
-<img src ="_images/1accessoires-produits-chimiques1.jpg" id="myslide" />
-<script type = "text/javascript">
-var myImage = document.getElementById("myslide");
-var imageArray = ["_images/mallette1.jpg","_images/mallette2.jpg","_images/Untitled4.png","_images/Untitled2.png",];
-var imageIndex = 0;
-function changeImage() {myImage.setAttribute("src",imageArray[imageIndex]);
-imageIndex++;
-if (imageIndex >= imageArray.length)
-{imageIndex = 0}}
-setInterval(changeImage,3000);
-</script><BR>
-</div>
-
-<div id = "second5">
-<p width = "9000" align="left" class="border_img10">
-Les produits de Polynt se caractérisent par la multipicité des applications et par la variété des secteurs finaux d'emploi ; 
-en effet, ils sont utilisés notamment pour la production de matières plastiques, vernis, encres et adhésifs, 
-composants électriques et électroniques, papier, lubrifiants. D'autres emplois incluent la préparation de produits chimiques utilisés dans 
-la production d'aliments pour animaux et d'additifs pour l'industrie alimentaire, 
-ainsi que les matériaux composites pour le moulage destinés au secteur électrique, au secteur des transports et au secteur de la construction.
-<font color="black">*********************</font></p>
-</div>
 
 </body>
 </html>
