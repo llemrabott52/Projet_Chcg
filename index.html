@@ -3,15 +3,57 @@
 <head>
 <meta charset="utf-8" />
 
-  <!-- Set the viewport width to device width for mobile -->
-  <meta name="viewport" content="width=device-width" />
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="width=device-width" />
 
   <title>ETS CHCG</title>
 
+ 
   <link rel="stylesheet" href="stylesheets/foundation.css">
   <link rel="stylesheet" href="stylesheets/app.css">
 
   <script src="javascripts/modernizr.foundation.js"></script>
+
+  <script>
+		var i=0; //start point hhhhhh
+		var images = [];
+		var time = 3000;
+		
+		// liste of images 
+		images[0]='bienvenuechcg.jpg'
+		images[1]='malet2.jpg'
+		images[2]='malet1.jpg'
+		images[3]='malet4.jpg'
+		images[4]='malet3.jpg'
+		images[5]='malet6.jpg'
+		images[6]='malet5.jpg'
+		images[7]='malet8.jpg'
+		images[8]='malet9.jpg'
+		images[9]='malet17.jpg'
+		images[10]='malet10.jpg'
+		images[11]='malet7.jpg'
+		images[12]='malet11.jpg'
+		images[13]='malet13.jpg'
+		images[14]='malet14.jpg'
+		images[15]='malet12.jpg'
+		images[16]='malet15.jpg'
+		images[17]='malet5.jpg'
+		images[18]='malet16.jpg'
+		images[19]='malet9.jpg'
+		//changing immage evry 3 minutes
+		
+		function changeImg(){
+		document.slide.src = images[i];
+		
+		if(i < images.length - 1){
+		   i++;
+		 }else{
+		   i=0; 
+		 }
+		setTimeout("changeImg()",time);
+		}
+		window.onload = changeImg;
+		</script>
 
 </head>
 
@@ -52,14 +94,15 @@
 					<br /><br />
 					<u><b>Entreprise du ETS CHCG est votre meilleur distrubuteur des Equipements Chimiques !!!</b></u>
 							</p>
+							
 					<img src="ETS CHCH image.png" />
 									
 				</div>
 		
 				<div class="four columns">
-						<img src="malet4.jpg" /><br>
-						<img src="malet9.jpg" /><br>
 
+						<img name="slide" width="400" height="200"  />			
+                      <hr >
 					<h4>ETS CHCG Entreprise <br> est dans votre services.</h4>
 					
 					<!-- don't mind these, I just added them for fun! -->
@@ -85,3 +128,4 @@
 		</div>
 	</div>
 </body>
+
