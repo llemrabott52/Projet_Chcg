@@ -1,131 +1,114 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
+<!DOCTYPE HTML>
+<html>
+
 <head>
-<meta charset="utf-8" />
-
-<!-- Set the viewport width to device width for mobile -->
-<meta name="viewport" content="width=device-width" />
-
-  <title>ETS CHCG</title>
-
- 
-  <link rel="stylesheet" href="stylesheets/foundation.css">
-  <link rel="stylesheet" href="stylesheets/app.css">
-
-  <script src="javascripts/modernizr.foundation.js"></script>
-
-  <script>
-		var i=0; //start point hhhhhh
-		var images = [];
-		var time = 3000;
-		
-		// liste of images 
-		images[0]='bienvenuechcg.jpg'
-		images[1]='malet2.jpg'
-		images[2]='malet1.jpg'
-		images[3]='malet4.jpg'
-		images[4]='malet3.jpg'
-		images[5]='malet6.jpg'
-		images[6]='malet5.jpg'
-		images[7]='malet8.jpg'
-		images[8]='malet9.jpg'
-		images[9]='malet17.jpg'
-		images[10]='malet10.jpg'
-		images[11]='malet7.jpg'
-		images[12]='malet11.jpg'
-		images[13]='malet13.jpg'
-		images[14]='malet14.jpg'
-		images[15]='malet12.jpg'
-		images[16]='malet15.jpg'
-		images[17]='malet5.jpg'
-		images[18]='malet16.jpg'
-		images[19]='malet9.jpg'
-		//changing immage evry 3 minutes
-		
-		function changeImg(){
-		document.slide.src = images[i];
-		
-		if(i < images.length - 1){
-		   i++;
-		 }else{
-		   i=0; 
-		 }
-		setTimeout("changeImg()",time);
-		}
-		window.onload = changeImg;
-		</script>
-
+  <title>Math-Info Archives</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
 </head>
 
 <body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1>
+              <img src="style/MPI2.png" align="left"/>
+          <a href="index.html">Math-Info<span class="logo_colour">Archives</span></a></h1>
+          <h2>Crée par Lemrabott Toulba</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="CreditCours.html"><b>CreditCours</b></a></li>
+          <li><a href="Info-Arch.html"><b>Info-Arch</b></a></li>
+          <li><a href="Math-Arch.html"><b>Math-Arch</b></a></li>
+          <li><a href="Espace-Etudiants.html"><b>Espace-Etudiants</b></a></li>
+          <li><a href="contact.html"><b>Contact</b></a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3><u>Nouveaux-infos :</u></h3>
+        <h4><font color="red">La sortir des results de MI</font></h4>
+        <h5>12 , Juiller , 2017</h5>
+        <p>Aujordhui le 12/07/2017, la Faculté de Science et de Technique a dustribue les resultats de la Specialite Math-Informatiques.
+        <br><a href="#">Pour consulter</a></p>
+        
+        <h4></h4>
+        <h5></h5>
+        <p></p>
+        
+        <h4><font color="red">La sortir des Orientations des étudiants de MI</font></h4>
+        <h5>14 , September , 2018</h5>
+        <p>Aujordhui le 14/09/2018, la Faculté de Science et de Technique a dustribue les Orientations des étudiants la Specialite Math-Informatiques.
+        <br /><a href="#">Pour consulter</a></p>
+        
+        <h3><img src="style/UNALOG.png" align="left"/> <a href="#">U.N.A</a></h3>
+        <ul>
+          <li>pour visiter le site de UNA<a href="#">una.mr</a></li>
+          <li>le site de la Faculté<a href="#">una/fst.mr </a></li>
+          <li>le site des Departements<a href="#">una/fst/dep-math-info.mr </a></li>
+          <li>pour consulter vos Resultats <a href="#">una/Results.mr</a></li>
+        </ul>
+        <h3>Rechercher</h3>
+        <form method="post" action="#" id="search_form">
+          <p>
+            <input class="search" type="text" name="search_field" value="Enter les Mots clés....." />
+            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Recherche" title="Recherche" />
+          </p>
+        </form>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1><b><font face="arial Black">Bien venu étudiant dans votre site!</font></b></h1>
+        <p>
+          <font color="red"><u>Rappel </u></font>:<br>
+          <b>Ce site est destine principalement au étudiants de spécialité <a href="#">Math-Informatique (MI)</a>.</b> <br><br>
+          Ce site a été créer à but d'aider ses étudiants à trouver quelques <u>Livres</u> en format PDF, <u>des Documents</u> archivées .<br>
+          <font color="red"><u>NB</u></font>:
+          dans ces fichers ou documents vous pouver trouver quelques de <a href="#">FST</a> a été treter les années passés et quelques des universite exterieur, 
+					mais tous sa peut vous aider à prendre une experiance de les methodes de dépositions des devoirs et Exemens des année passés.</p>
 
-	<div class="row">
-		<div class="twelve columns">
-		<img src="chcg-logo.png" align="left"/>
-		<p align="center"><h2>ETS CHCG Entreprise</h2></p>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="twelve columns">
-			<ul class="nav-bar">
- 		 		<li class="active"><a href="#">Home</a></li>
-  				<li><a href="Produits.html">Produits</a></li>
-  				<li><a href="#">Ventes</a></li>
-  				<li><a href="#">Contact </a></li>
-			</ul>
-			
-		</div>
-	</div>
-	
-	<!-- don't mind this script, I just added them for fun! -->
-	<script charset="ISO-8859-1" src="http://fast.wistia.com/static/popover-v1.js"></script>
-	
-	<div class="row">
-		<div class="twelve columns">
-			<div class="row">
-				<div class="eight columns">
-					<h6>Bien-venue dans le site du "E.T.S C.H.C.G" <br> 
-						<font color="green"> Votre distributeur des Equipements, Energie et Produits Chimique ...</font>
-					</h6>
-					<p>
-					Si vous voulez achetez des produits chimiques, Equipements, ou de lenergie ETS CHCG est votre meilleur choix pour cela.
-                    <br><b>ETS CHCG</b> a l'honneur de vous servir les produits que vous voulez.
-					<br /><br />
-					<u><b>Entreprise du ETS CHCG est votre meilleur distrubuteur des Equipements Chimiques !!!</b></u>
-							</p>
-							
-					<img src="ETS CHCH image.png" />
-									
-				</div>
-		
-				<div class="four columns">
+       <p>Nous somes très content pour votre bien-venue dans notre site et nous avons l'honneur de vous cervir des cours peut 
+				  vous aidez pandant votre carier d'obtension du <strong>diplome de Licence</strong>.<br> 
+          En souhaitant que vous trouver l'ensembles des docouments que vous voulez !</p>
+            
+        <p><b><font face ="Lucida Calligraphy,Comic Sans MS,Lucida Console">
+        On vous souhaite une bonne et reussite année.</font></b>.</p>
+        
+        <h2><b><font color="blue" face="font-face">Les Logiciels à télecharger :</font></b></h2>
+        <p>Ces Logiciels peut vous avoir eu avoir un aide pandant votre carier dans cette specialité !:</p>
+      </div>
+        <table style="width:100%; border-spacing:0;">
+          <tr><th>Nom du logiciel</th><th>Taille                        </th><th>Télecharger</th></tr>
+          <tr><td>netbeans_8-1_fr_429613.exe</td><td>219,152KB</td><td ><a href="Softwares/netbeans_8-1_fr_429613.exe" title="Télécharger le logiciel" target="_blank"><img src="Image_Pub/IMG_5360.PNG" alt="mypdf1" width="150" height="25"></a></td></tr>
+          <tr><td>JavaSetup8u131.exe</td><td>722KB</td><td><a href="Softwares/JavaSetup8u131.exe" download="Mypdf" target="_blank" title="Telecharger le Ficher"><img src="Image_Pub/IMG_5360.PNG" alt="mypdf1" width="150" height="25"></a></td></tr>
+          <tr><td>jdk-8u121-windows-x64-demos.zip</td><td>55,120KB</td><td><a href="Softwares/jdk-8u121-windows-x64-demos.zip" download="Mypdf" target="_blank" title="Telecharger le Ficher"><img src="Image_Pub/IMG_5360.PNG" alt="mypdf1" width="150" height="25"></a></td></tr>
+          <tr><td>mysql-installer-community-5.6.10.1.msi</td><td>176,080KB</td><td><a href="Softwares/mysql-installer-community-5.6.10.1.msi" download="Mypdf" target="_blank" title="Telecharger le Ficher"><img src="Image_Pub/IMG_5360.PNG" alt="mypdf1" width="150" height="25"></a></td></tr>
+          <tr><td>mysql-installer-community-5.7.9.0.msi</td><td>379,416KB</td><td><a href="Softwares/mysql-installer-community-5.7.9.0.msi" download="Mypdf" target="_blank" title="Telecharger le Ficher"><img src="Image_Pub/IMG_5360.PNG" alt="mypdf1" width="150" height="25"></a></td></tr>
+          <tr><td>SQLEXPRWT_x64_FRA.exe</td><td>270,628KB</td><td><a href="Softwares/SQLEXPRWT_x64_FRA.exe" download="Mypdf" target="_blank" title="Telecharger le Ficher"><img src="Image_Pub/IMG_5360.PNG" alt="mypdf1" width="150" height="25"></a></td></tr>
+          <tr><td>wampserver3.0.6_x64_apache2.4.23_mysql5.7.14_php5.6.25-7.0.10.exe</td><td>214,363KB</td><td><a href="Softwares/wampserver3.0.6_x64_apache2.4.23_mysql5.7.14_php5.6.25-7.0.10.exe" download="Mypdf" target="_blank" title="Telecharger le Ficher"><img src="Image_Pub/IMG_5360.PNG" alt="mypdf1" width="150" height="25"></a></td></tr>
+          <tr><td>wampserver_2-5_fr_27009_32.exe</td><td>38,983KB</td><td><a href="Softwares/wampserver_2-5_fr_27009_32.exe" download="Mypdf" target="_blank" title="Telecharger le Ficher"><img src="Image_Pub/IMG_5360.PNG" alt="mypdf1" width="150" height="25"></a></td></tr>
+          <tr><td>xampp-win32-7.1.7-0-VC14-installer.exe</td><td>126,918KB</td><td><a href="Softwares/xampp-win32-7.1.7-0-VC14-installer.exe" download="Mypdf" target="_blank" title="Telecharger le Ficher"><img src="Image_Pub/IMG_5360.PNG" alt="mypdf1" width="150" height="25"></a></td></tr>
+          <tr><td>VirtualBox-5.1.10-112026-Win.exe</td><td>120,131KB</td><td><a href="Softwares/VirtualBox-5.1.10-112026-Win.exe" download="Mypdf" target="_blank" title="Telecharger le Ficher"><img src="Image_Pub/IMG_5360.PNG" alt="mypdf1" width="150" height="25"></a></td></tr>        
+        </table>
 
-						<img name="slide" width="400" height="200"  />			
-                      <hr >
-					<h4>ETS CHCG Entreprise <br> est dans votre services.</h4>
-					
-					<!-- don't mind these, I just added them for fun! -->
-					
-					Vous pouvez nous contacter via : <br>
-					<b>Email</b> :
-					<a href="#" class="coverimg wistia-popover[width=640,height=360,playerColor=#636155]">chcgmr@gmail.com</a>
-					<br><b>Tél</b> :
-					<a href="#" class="coverimg wistia-popover[width=640,height=360,playerColor=#636155]">44394440</a>
-					<br><b>Whatsapp</b> :
-					<a href="#" class="coverimg wistia-popover[width=640,height=360,playerColor=#636155]">44394440</a>					<br />
-					<hr />
-					
 
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="twelve columns">
-		<hr />
-		<p align="center">©2018 Entreprise CHCG. Distributeur des Produits!!!.</p>
-		</div>
-	</div>
+
+      </div>
+    </div>
+    <div id="footer">
+      Copyright &copy; textured_green | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">HTML5 Web Templates</a>
+    </div>
+  </div>
 </body>
-
+</html>
